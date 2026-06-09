@@ -2,6 +2,7 @@
 ! Description: 성가신 것들을 제거합니다
 ! Version: 1.0.0
 ! Expires: 1 day
+! URL: https://raw.githack.com/TetraTheta/filter/main/annoyance.txt
 
 ! ### Network Filter ###
 
