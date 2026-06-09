@@ -1,0 +1,39 @@
+! Title: TetraTheta의 방해요소 필터
+! Description: 성가신 것들을 제거합니다
+! Version: 1.0.0
+! Expires: 1 day
+
+! ### Network Filter ###
+
+! 실험: 노벨피아 배너 광고 이미지
+||novelpia.com/proc/banner?cmd=banner
+
+! ### Cosmetic Filter ###
+
+! 노벨피아 모바일 내비게이션
+novelpia.com##div.bt-nv-menu.event
+novelpia.com##div.bt-nv-menu:nth-of-type(2)
+
+! 노벨피아 AI 채팅 광고
+novelpia.com###slide-layer > div.media-wrap > img.char-img:first-child
+novelpia.com###slide-layer > a:first-child > div.media-wrap > img.char-img:first-child
+
+! 노벨피아 일반
+novelpia.com###slide-banner-box
+novelpia.com###slide-banner-box-mobile
+novelpia.com##.mybook-sub-nav.s_inv
+novelpia.com##.s-logo
+novelpia.com##a.header-gift .red-dot
+
+! 노벨피아 내 서재
+novelpia.com##div.mybook-tab-container > :nth-child(2)
+novelpia.com##div.mybook-tab-container > :nth-child(3)
+novelpia.com##div.mybook-tab-container-m > :nth-child(2)
+novelpia.com##div.mybook-tab-container-m > :nth-child(3)
+
+! 노벨피아 선택 요소
+novelpia.com##a[href$="/comic_main"]
+novelpia.com##a[href$="/contest_list"]
+
+! 네이버
+naver.com###whale-banner
