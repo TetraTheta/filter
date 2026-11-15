@@ -1,6 +1,6 @@
 ! Title: TetraTheta의 방해요소 필터
 ! Description: 성가신 것들을 제거합니다
-! Version: 1.0.1
+! Version: 1.0.2
 ! Expires: 1 day
 ! URL: https://raw.githack.com/TetraTheta/filter/main/annoyance.txt
 
@@ -18,7 +18,7 @@ novelpia.com##div.bt-nv-menu:nth-of-type(2)
 ! 노벨피아 AI 채팅 광고
 novelpia.com###slide-layer > a:first-child > div.media-wrap > img.char-img:first-child
 novelpia.com###slide-layer > div.media-wrap > img.char-img:first-child
-novelpia.com##.epnew-pc-btn-area > .s_inv.btn-chat-recommend
+novelpia.com##.s_inv.btn-chat-recommend
 
 ! 노벨피아 일반
 novelpia.com###slide-banner-box
